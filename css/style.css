@@ -2,7 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, rgb(9, 52, 170) , rgb(9, 108, 148),rgb(5, 126, 116));
 }
 
 .container {
@@ -11,6 +12,7 @@ body {
   background: white;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5%;
 }
 
 .info-container {
