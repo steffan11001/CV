@@ -13,7 +13,30 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-img {
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%; /* Rotunjirea colțurilor pentru o imagine circulară, dacă dorești */
+  margin-right: 20px; /* Spațiu între imagine și lista de contacte */
+}
+
+.contact-icon {
+  width: 20px;
+  margin-right: 5px; /* Spațiu între iconiță și text */
+  display: inline-block; 
+  margin: 0 auto; 
+  width: 15px; 
+  height: auto;
+  padding-right: 0.5vw;
+  /* padding-top: 1vh; */
+}
+img.img-contacts{
   display: inline-block; 
   margin: 0 auto; 
   width: 15px; 
