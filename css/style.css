@@ -48,15 +48,18 @@ h3 {
   list-style-type: none;
   padding: 0;
   display: flex;
-  justify-content: center; /* Center the contact items */
-  gap: 15px; /* Add space between contact items */
-  flex-wrap: wrap; /* Allow wrapping if needed */
+  justify-content: center; 
+  gap: 15px; 
+  flex-wrap: wrap; 
 }
 
 .profile-img {
   width: 150px;
   border-radius: 50%; 
-  margin-right: 20px; 
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .contact li {
   display: inline;
