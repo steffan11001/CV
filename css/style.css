@@ -45,6 +45,9 @@ h1 {
 h3 {
   color: #034d7e;
 }
+p {
+  padding-left: 3%;
+}
 .contact {
   list-style-type: none;
   padding: 0;
